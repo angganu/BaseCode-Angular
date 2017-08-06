@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUNU Angular</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link href="assets/styles/styles.css" rel="stylesheet">
+</head>
+
+<body ng-app="nunuAPP" ng-cloak>
+    <div ui-view ng-cloak></div>
+
+    <!-- ---- Angular -->
+    <script src="assets/script/jquery.min.js"></script>
+    <script src="assets/script/angular.min.js"></script>
+    <script src="assets/script/angular-ui-router.min.js"></script>
+    <script src="assets/script/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="assets/script/cryptojslib/rollups/aes.js"></script>
+    <script src="assets/script/angular-cryptography/mdo-angular-cryptography.js"></script>
+    <script src="assets/script/ui-bootstrap-2.5.0.min.js"></script>
+    <script src="assets/script/ui-bootstrap-tpls-0.13.4.min.js"></script>
+
+    <!-- ---- App Config -->
+    <script src="app/config/Config.js"></script>
+    <script src="app/config/Route.js"></script>
+    <script src="app/config/Persistence.js"></script>
+    <script src="app/config/Services.js"></script>
+    <script src="app/config/App.js"></script>
+
+    <!-- ---- Controller -->    
+    <script src="app/controllers/AuthController.js"></script>
+    <script src="app/controllers/DashboardController.js"></script>
+
+</body>
+</html>
